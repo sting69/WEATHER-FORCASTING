@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Weather",
+    "version": "0.0.1",
+    "description": "Simple and Easy way to get Weather update",
+    "action": {
+        "default_icon": {
+            "16": "./assets/Weather-icon_16.png",
+            "48": "./assets/Weather-icon_48.png",
+            "128": "./assets/Weather-icon_128.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab",
+        "geolocation"
+    ], 
+     
+    "author":"029aman"
+}

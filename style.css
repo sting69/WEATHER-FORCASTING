@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 200px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(249, 237, 223);
+    background-image: url('./assets/BackGround.png');
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    align-content: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.City {
+    flex: 3.5;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#Today, .main p{
+    color: rgb(161, 161, 240);
+}
+
+#cityName{
+    font-size: 30px;
+    
+}
+
+#State{
+    font-size: 10px;
+}
+
+.temp{
+    display: inline-block;
+    flex: 3.5;
+}
+
+#temp_val{
+    font-size: 45px;
+}
+
+
+
+.forecast{
+    padding-top: 5px;
+    flex: 4;
+}
+
+.forecast_item div{
+    padding: 1px 5px;
+}
+
+#forecast1, #forecast2, #forecast0 {
+    padding-bottom: 7px;
+    color: rgb(161, 161, 240);
+}
+
+.forecast-list{
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+}

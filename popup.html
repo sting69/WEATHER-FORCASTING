@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <p>Weather Forecast</p>
+        <div class="City">
+            <div>
+                <span id="cityName"></span>
+            </div>
+            <div>
+                <span id="State"></span>
+            </div>
+        </div>
+
+        <div id="Today">
+        </div>
+
+        <div class="temp">
+            <div>
+                <span id="temp_val"></span>
+                <span class="temp_unit">°C</span>
+            </div>
+            <div>
+                <span id="weather_desc"></span>
+            </div>
+        </div>
+
+
+        <div class="forecast">
+            <ul class="forecast-list">
+                <li class="forecast_item">
+                    <div>
+                        <div id="forecast0">
+                        </div>
+                        <div id="forecast0_temp">
+                        </div>
+                        <div>
+                            <span id="forecast0_max"></span>
+                            <span>/</span>
+                            <span id="forecast0_min"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="forecast_item">
+                    <div>
+                        <div id="forecast1">
+                        </div>
+                        <div id="forecast1_temp">
+                        </div>
+                        <div>
+                            <span id="forecast1_max"></span>
+                            <span>/</span>
+                            <span id="forecast1_min"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="forecast_item">
+                    <div>
+                        <div id="forecast2">
+                        </div>
+                        <div id="forecast2_temp">
+                        </div>
+                        <div>
+                            <span id="forecast2_max"></span>
+                            <span>/</span>
+                            <span id="forecast2_min"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<script src="fetchData.js"></script>
+
+</html>
